@@ -1,0 +1,20 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile": "truffle compile --reset",
+    "migrate": "truffle migrate --reset",
+    "test": "truffle test --reset"
+  },
+  "keywords": [],
+  "author": "abc",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.11",
+    "solc": "^0.8.19"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.6.3"
+  }
+}
